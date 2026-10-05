@@ -294,10 +294,12 @@ Check those terms before you redistribute anything.
 
 ## Disclaimer
 
-This is research code. Its records are extracted automatically and can be wrong, and
-FDA records describe label changes rather than clinical guidance. Nothing it produces
-is medical, financial or legal advice. Always check a drug-label fact against the
-official label.
+This is research code. Its records are extracted automatically and can be wrong,
+including records about real people. FDA records describe label changes rather than
+clinical guidance, and chemical records describe regulatory classifications rather
+than exposure or safety guidance. Nothing it produces is medical, financial, safety
+or legal advice. Always check a fact against its primary source: the official drug
+label, the IARC, Prop 65 or EPA listing, or the SEC filing.
 
 Provided as is, without warranty of any kind (see [LICENSE](LICENSE)). Use it at
 your own risk.
