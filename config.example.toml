@@ -1,0 +1,16 @@
+# Stage-1 settings. Copy this file to config.toml (git-ignored) and fill in what
+# your sources need. An environment variable of the same name overrides the
+# value here.
+
+# Contact address sent in the User-Agent of every request. Wikimedia, openFDA,
+# DailyMed and SEC EDGAR ask for one, and EDGAR refuses requests without it.
+# Required for any harvest.
+STAGE1_CONTACT_EMAIL = "you@example.com"
+
+# Polygon.io API key. Only the finance source needs it.
+POLYGON_API_KEY = ""
+
+# S&P 500 scope CSV for the sec and finance sources, with a header row
+# `ticker,name,cik` (CIK zero-padded or not). Relative paths resolve from the
+# repo root. Not shipped with the repo: build your own.
+STAGE1_SP500_UNIVERSE = ""

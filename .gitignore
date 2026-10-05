@@ -1,0 +1,26 @@
+# Your settings: contact email, API keys, input paths.
+config.toml
+.env
+
+# Everything the pipeline pulls or builds. This repo ships code only; harvested
+# snapshots, caches, releases and review exports stay on the machine that made them.
+stage1/snapshots/
+stage1/releases/
+stage1/cache/
+stage1/reports/
+stage1/harvest/chemical_reference.jsonl
+stage1/harvest/chemical_reference.meta.json
+*.part
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
