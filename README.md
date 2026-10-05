@@ -299,6 +299,9 @@ FDA records describe label changes rather than clinical guidance. Nothing it pro
 is medical, financial or legal advice. Always check a drug-label fact against the
 official label.
 
+Provided as is, without warranty of any kind (see [LICENSE](LICENSE)). Use it at
+your own risk.
+
 ## License
 
 MIT for the code (see [LICENSE](LICENSE)). Data you harvest with it is not covered by
